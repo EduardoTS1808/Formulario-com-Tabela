@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+table{
+    border: .2rem solid #000;
+
+margin:2rem;
+}
+table tr{
+    border: .2rem solid #000;
+}
+table th{
+    background-color: #00f;
+    color: #fff;
+    font-size: 2rem;
+    min-width: 10rem;
+}
+table td{
+    background-color: #f0f0f0;
+    color: #0c0c0c;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.formulario{
+    padding: 10rem;
+    margin: 3rem auto;
+    background-color: rgba(99, 118, 142, 0.5);
+     /* display: flex; */
+     /* align-items: center; */
+     /* justify-content: space-around; */
+
+}
+.formulario .campo-input{
+    min-width: 20rem;
+    padding: .5rem;
+    margin: 1rem;
+    /* background-color: #00f; */
+}
+.formulario .campo-input label{
+    font-size: 2rem;
+    margin:  2.5rem 0;
+}
+.formulario .campo-input input{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .6rem;
+    padding: .5rem;
+
+}
+.formulario .campo-ratio{
+    min-width: 20rem;
+    padding: .6rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+.formulario .campo-ratio label{
+    font-size: 1.5rem;
+    margin:  .5rem;
+}
+.formulario .campo-radio input{
+    margin-top: 1rem;
+}
+.formulario .campo-checkbox{
+    min-width: 20rem;
+    padding: .6rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+.formulario .campo-checkbox label{
+    font-size: 1.5rem;
+    margin:  .5rem;
+}
+.formulario .campo-checkbox input{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.formulario .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario .button #btnEnviar{
+    font-size: 2.5rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
